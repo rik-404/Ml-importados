@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.filtro {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.filtro form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filtro label {
+  font-weight: bold;
+}
+
+.filtro select, .filtro button {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.produtos {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.produtos h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.produto {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.produto h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.produto p {
+  font-size: 16px;
+  color: #e44d26;
+  margin-bottom: 15px;
+}
+
+.adicionar-carrinho {
+  background-color: #f60;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.adicionar-carrinho:hover {
+  background-color: #e44d26;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #f60;
+}
