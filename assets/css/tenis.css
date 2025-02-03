@@ -71,17 +71,17 @@ nav a {
 }
 
 .produto {
-  background-color: #fff;
-  padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 10px;
   text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
 }
 
 .produto img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
+  max-width: 380px;
+  max-height: 490px;
+  border-radius: 10px;
 }
 
 .produto h3 {
