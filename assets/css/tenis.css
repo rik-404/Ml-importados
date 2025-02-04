@@ -110,19 +110,5 @@ footer {
 footer a {
   color: #f60;
 }
-/* SCROLL */
-.offer__scroll-container {
-  max-height: 43vh;
-  margin: 24px;
-  overflow-y: auto;
-  }
-  
-  .offer__scroll-container::-webkit-scrollbar {
-  width: 1px;
-  }
-  
-  .offer__scroll-container::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  }
-  /* FIM SCROLL */
+
   

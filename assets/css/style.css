@@ -43,28 +43,34 @@ nav a {
   color: #fff;
 }
 
-.carousel {
+.carrossel-container {
   display: flex;
-  justify-content: space-between;
-  background-color: #f9f9f9;
-  padding: 20px;
+  gap: 50px;
+  justify-content: center;
+  margin: 20px;
 }
 
-.carousel-item {
-  width: 30%;
+/* Personalização do carrosel */
+.carrossel {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carrossel-foto {
+  position: absolute;
+  width: 600px;
+  height: 300px;
   background-size: cover;
   background-position: center;
-  color: #fff;
-  padding: 40px;
-  text-align: center;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
 }
 
-.carousel-item a {
-  background-color: #f60;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 20px;
+.carrossel-foto.ativo {
+  opacity: 1; 
 }
 
 .destaques {
@@ -75,7 +81,7 @@ nav a {
 
 .produtos {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
 }
 
