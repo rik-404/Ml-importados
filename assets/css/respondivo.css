@@ -1,0 +1,65 @@
+@media (max-width: 320px) {
+  /* Ajusta o tamanho da fonte */
+  body {
+      font-size: 12px;
+  }
+
+  /* Cabeçalho e navegação */
+  header {
+      padding: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul li {
+      margin: 5px 0;
+  }
+
+  nav ul li a {
+      font-size: 14px;
+  }
+
+  /* Ajuste no formulário de filtro */
+  .filtro form {
+      gap: 5px;
+  }
+
+  .filtro label, .filtro select {
+      font-size: 12px;
+  }
+
+  button {
+      padding: 8px 15px;
+      font-size: 14px;
+  }
+
+  /* Produtos */
+  .grid-produtos {
+      grid-template-columns: 1fr;  /* Apenas uma coluna em telas pequenas */
+  }
+
+  .produto {
+      padding: 5px;
+      font-size: 12px;
+  }
+
+  .produto h3 {
+      font-size: 14px;
+  }
+
+  .produto p {
+      font-size: 12px;
+  }
+
+  /* Rodapé */
+  footer {
+      padding: 10px;
+  }
+
+  footer p {
+      font-size: 10px;
+  }
+}

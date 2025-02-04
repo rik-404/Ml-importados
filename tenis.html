@@ -23,66 +23,42 @@
         </nav>
     </header>
 
-    <!-- Filtro de Produtos -->
-    <section class="filtro">
-        <h2>Filtrar por:</h2>
-        <form>
-            <label for="preco">Preço:</label>
-            <select id="preco" name="preco">
-                <option value="todos">Todos</option>
-                <option value="baixo">Até R$ 200</option>
-                <option value="medio">R$ 200 - R$ 500</option>
-                <option value="alto">Acima de R$ 500</option>
-            </select>
-
-            <label for="marca">Marca:</label>
-            <select id="marca" name="marca">
-                <option value="todos">Todas</option>
-                <option value="nike">Nike</option>
-                <option value="adidas">Adidas</option>
-                <option value="puma">Puma</option>
-            </select>
-
-            <button type="submit">Aplicar Filtros</button>
-        </form>
-    </section>
-
     <!-- Lista de Tênis -->
     <section class="produtos">
-        <h2>Tênis em Destaque</h2>
+        <h2>Todos os Tênis</h2>
+        <div className="offer__scroll-container">
+            <div className="offer__list">
+                <section className="offer__list-item">
         <div class="grid-produtos">
             <!-- Produto 1 -->
             <div class="produto">
                 <img src="./assets/images/Imagem do WhatsApp de 2025-02-03 à(s) 14.29.49_1670cf02.jpg" alt="Adidas Fórum">
                 <h3>Adidas Fórum</h3>
-                <p>R$ 599,99</p>
-                <a href="#" class="adicionar-carrinho">Adicionar ao Carrinho</a>
+                <p>R$ ###,##</p>
+                <a href="#" class="saiba-mais">Saiba mais</a>
             </div>
 
             <!-- Produto 2 -->
             <div class="produto">
-                <img src="tenis2.jpg" alt="Tênis Adidas Ultraboost">
-                <h3>Tênis Adidas Ultraboost</h3>
-                <p>R$ 749,99</p>
-                <a href="#" class="adicionar-carrinho">Adicionar ao Carrinho</a>
+                <img src="./assets/images/Imagem do WhatsApp de 2025-02-03 à(s) 14.30.47_c0a9db8c.jpg" alt="Nike Air Forc *Premium Couro">
+                <h3>Nike Air Forc *Premium Couro</h3>
+                <p>R$ ###,##</p>
+                <a href="#" class="saiba-mais">Saiba mais</a>
             </div>
 
             <!-- Produto 3 -->
             <div class="produto">
-                <img src="tenis3.jpg" alt="Tênis Puma Suede">
-                <h3>Tênis Puma Suede</h3>
-                <p>R$ 299,99</p>
-                <a href="#" class="adicionar-carrinho">Adicionar ao Carrinho</a>
+                <img src="./assets/images/Imagem do WhatsApp de 2025-02-03 à(s) 14.29.02_e0934842.jpg" alt="Tênis Puma Suede">
+                <h3>All Star Vulcanizado</h3>
+                <p>R$ ###,##</p>
+                <a href="#" class="saiba-mais">Saiba mais</a>
             </div>
 
-            <!-- Produto 4 -->
-            <div class="produto">
-                <img src="tenis4.jpg" alt="Tênis New Balance 990">
-                <h3>Tênis New Balance 990</h3>
-                <p>R$ 499,99</p>
-                <a href="#" class="adicionar-carrinho">Adicionar ao Carrinho</a>
-            </div>
+        
         </div>
+                </section>
+    </div>
+    </div>
     </section>
 
     <!-- Rodapé -->

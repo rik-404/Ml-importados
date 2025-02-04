@@ -1,3 +1,8 @@
+a, ul{
+  text-decoration: none;
+  list-style: none;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -19,38 +24,25 @@ header .logo img {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   gap: 20px;
+}
+
+nav ul li{
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+}
+nav ul li:hover{
+  background-color: #f60;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-}
-
-.filtro {
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-.filtro form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.filtro label {
-  font-weight: bold;
-}
-
-.filtro select, .filtro button {
-  padding: 8px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
 }
 
 .produtos {
@@ -66,21 +58,21 @@ nav a {
 
 .grid-produtos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 .produto {
-  border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #dad5d5;
   border-radius: 10px;
+  border: 1px solid #000;
 }
 
 .produto img {
-  max-width: 380px;
-  max-height: 490px;
+  width: 380px;
+  height: 490px;
   border-radius: 10px;
 }
 
@@ -96,7 +88,7 @@ nav a {
   margin-bottom: 15px;
 }
 
-.adicionar-carrinho {
+.saiba-mais {
   background-color: #f60;
   color: #fff;
   padding: 10px 20px;
@@ -104,7 +96,7 @@ nav a {
   border-radius: 5px;
 }
 
-.adicionar-carrinho:hover {
+.saiba-mais:hover {
   background-color: #e44d26;
 }
 
@@ -118,3 +110,19 @@ footer {
 footer a {
   color: #f60;
 }
+/* SCROLL */
+.offer__scroll-container {
+  max-height: 43vh;
+  margin: 24px;
+  overflow-y: auto;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar {
+  width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  }
+  /* FIM SCROLL */
+  
