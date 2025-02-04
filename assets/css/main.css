@@ -1,0 +1,118 @@
+a, ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 300px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li{
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+}
+nav ul li:hover{
+  background-color: #f60;
+}
+
+nav a {
+  color: #fff;
+}
+
+.carrossel-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Personalização do carrosel */
+.carrossel {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carrossel-foto {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.carrossel-foto.ativo {
+  opacity: 1; 
+}
+
+.destaques {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.produtos {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.produto {
+  padding: 10px;
+  text-align: center;
+  background-color: #dad5d5
+  ;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.produto img {
+  width: 380px;
+  height: 490px;
+  border-radius: 10px;
+  border: 1px solid #f60;
+}
+
+.produto a:hover{
+  color: #f60;
+}
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #f60;
+}
